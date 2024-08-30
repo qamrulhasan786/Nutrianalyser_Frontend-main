@@ -1,0 +1,723 @@
+<body>
+
+    <section class="headerhome" id="home">
+
+        <div class="container mbltop">
+
+            <div class="menuutop">
+                <section class="analyse-header">
+                    <div class="header-call">
+                        <div class="d-flex topmb">
+                            <div class="p-2 flex-fill" style="position: relative;">
+                                <span class="aro">
+                                    <img src="assets/langingImage/left.svg">
+                                </span><span>
+                                    <p>Contact No</p><span>+91 7795688088</span>
+                                </span>
+                            </div>
+                            <div class="p-2 flex-fill"><img src="assets/langingImage/homelogo.png"></div>
+                            <div class="p-2 flex-fill" style="position: relative;">
+                                <span>
+                                    <p>Email id</p><span>info@criteriontech.in</span>
+                                </span><span class="aro1"><img src="assets/langingImage/right.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="mainmenu">
+                <nav class="navbar navbar-expand-sm">
+                    <div class="container mobilemenu">
+                        <div class="col-sm-12">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#mynavbar"><i class="fa fa-bars"></i></button>
+                            <div class="collapse navbar-collapse" id="mynavbar">
+                                <ul class="navbar-nav me-auto navbar-light homemenu">
+
+                                    <li class="nav-item"><a class="nav-link"
+                                            (click)="onNavigateClick('home', 1)">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" (click)="onNavigateClick('about', 2)">About
+                                            Us</a></li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            (click)="onNavigateClick('features', 3)">Features</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            (click)="onNavigateClick('contact', 4)">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- Banner section -->
+    <section class="bannersec">
+        <div class="nutri-inn">
+
+            <div id="demo" class="carousel slide" data-bs-ride="carousel" style="position: relative;">
+
+                <!-- <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div> -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/langingImage/banner.png" alt="" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                            <div class="container">
+
+                                <div class="nutri-inn-head"><span class="color-inn"></span><span
+                                        style="color: black;">Welcome To</span></div>
+                                <div class="nutr-inn1">
+                                    <h2><span class="nutri">Nutri</span> <span class="anly">Analyser</span></h2>
+                                    <p class="nutriDesc">NutriAnalyser enables us to analyse our diet inputs and <br>
+                                        provides us with reliable feedback on <br>
+                                        <b>what to eat and what not to eat! </b>
+                                    </p>
+
+                                    <!-- <div class="nutriBtn">
+                                        <button class="login" (click)="showForm('login')">Login</button>
+                                        <button class="newUser" (click)="showForm('register')" style="color: black;">New User?</button>
+                                    </div> -->
+                                    <div class="nutriBtn">
+                                        <button class="login" data-bs-toggle="offcanvas"
+                                            data-bs-target="#myModal">Login</button>
+                                        <button class="newUser" data-bs-toggle="offcanvas"
+                                            data-bs-target="#myModal1">New User?</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Recipes section -->
+    <section class="recp" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="mid-bg">
+                    <span id="top-txt">--- Recipes</span>
+                    <h2>Recipes <span> in Our Database</span></h2>
+                </div>
+
+                <section class="recepies-sec">
+                    <div class="recepies-sec-in">
+                        <div class="d-flex mbflex">
+                            <div class="flex-fill frrm-in"><img src="assets/langingImage/indian.svg">
+                                <p>Indian Dishes</p>
+                                <p class="rec">959</p>
+                            </div>
+                            <div class="flex-fill frrm-in"><img src="assets/langingImage/fruit.svg">
+                                <p>Fruits & Veggies</p>
+                                <p class="rec">877</p>
+                            </div>
+                            <div class="flex-fill frrm-in"><img src="assets/langingImage/nonveg.svg">
+                                <p>Non-Veg Dishes</p>
+                                <p class="rec">458</p>
+                            </div>
+                            <div class="flex-fill frrm-in"><img src="assets/langingImage/foodcat.svg">
+                                <p>Food Categories</p>
+                                <p class="rec">30+</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="platee"><img src="assets/langingImage/plate.png"></div>
+    </section>
+
+    <!-- Research section -->
+    <section class="recp1" style="background:url(assets/langingImage/green.png);background-repeat: repeat;">
+        <div class="container-fluid" style="padding: 0;">
+            <div class="row">
+
+                <div class="col-md-6" style="padding: 0;">
+                    <div class="maskk"><img src="assets/langingImage/mask.png"></div>
+                </div>
+
+                <div class="col-md-6" style="padding: 0;">
+                    <div class="whitemaskk1">
+                        <div class="whitemaskk">
+
+                            <div class="mid-bg">
+                                <span id="top-txt">--- How it Works</span>
+                                <h2>How it<span> Works </span></h2>
+                                <p class="nm">Considering our food intake, it generates RDA-based
+                                    nutritional achievement
+                                    reports that further lead to elicit auto-suggested food recommendations based on
+                                    our personalized nutritional needs.
+                                    This is how it helps us in creating customized meal plans to supercharge our
+                                    health.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- what we do section -->
+    <section class="aboutt" id="features">
+        <div class="container">
+            <div class="mid-bg">
+                <span id="top-txt">--- Features</span>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-pic">
+                        <img src="assets/langingImage/nutri mockup3.png">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="cirl-rigt">
+                        <ul>
+                            <li> <a href="#">
+                                    <div class="cv">CREATE </div> <span>Create sumptuous <br>recipes</span>
+                                </a> </li>
+                            <li> <a href="#">
+                                    <div class="cv">MONITOR </div> <span>Monitor nutritional intake <br> with respect to
+                                        achieved RDA</span>
+                                </a> </li>
+                            <li> <a href="#">
+                                    <div class="cv">ELICIT </div> <span>Elicit personalized
+                                        <br> food suggestions </span>
+                                </a> </li>
+                            <li> <a href="#">
+                                    <div class="cv">ENHANCE </div> <span>Enhance lifestyle choices <br> with
+                                        Mood/Activity tracker</span>
+                                </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials section -->
+    <div class="svgtop">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="none">
+            <path class="elementor-shape-fill"
+                d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z">
+            </path>
+            <path class="elementor-shape-fill"
+                d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z">
+            </path>
+            <path class="elementor-shape-fill"
+                d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z">
+            </path>
+            <path class="elementor-shape-fill"
+                d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z">
+            </path>
+            <path class="elementor-shape-fill"
+                d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z">
+            </path>
+            <path class="elementor-shape-fill"
+                d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z">
+            </path>
+            <path class="elementor-shape-fill"
+                d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z">
+            </path>
+            <path class="elementor-shape-fill"
+                d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z">
+            </path>
+            <path class="elementor-shape-fill"
+                d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z">
+            </path>
+        </svg>
+    </div>
+    <section class="testimonialsv">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="ctestt">
+                        <h3>--- Testimonial</h3>
+                        <h2>What <span>Our Clients Say</span></h2>
+                    </div>
+
+                    <div id="demo1" class="carousel slide" data-bs-ride="carousel" style="position: relative;">
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+                            <!-- <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button> -->
+                        </div>
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="bn"></div>
+                                <div class="carousel-caption">
+                                    <div class="container">
+                                        <div class="testimonialcnt">
+                                            <!-- <div class="testimonialpic"> <img src="assets/langingImage/test.png" alt=""
+                                                    class="d-block" style="width:100%"></div> -->
+                                            <h4>Sophiya Hasan</h4>
+                                            <p><img src="assets/langingImage/comma.png"> "NutriAnalyzer has contributed
+                                                a lot in improving my wellbeing by helping me power-pack my meals with
+                                                super-customized and need-based nutrients. I appreciate the way it
+                                                becomes sort of an integrative nutritionist to guide me on how heal with
+                                                meals."</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="carousel-item">
+                                <div class="bn"></div>
+                                <div class="carousel-caption">
+                                    <div class="container">
+                                        <div class="testimonialcnt">
+                                            <div class="testimonialpic"> <img src="assets/langingImage/test.png" alt=""
+                                                    class="d-block" style="width:100%"></div>
+                                            <h4>Amit Kumar</h4>
+                                            <p><img src="assets/langingImage/comma.png"> "NutriAnalyser app makes it possible for the user to have a quick overview of their food habits and the detailed evaluation and specifications of the nutrients and micro-nutrients entering the body. This simple and intuitive app allows you to track daily food, water, medicine/supplement intake in one place. Thanks Criterion Tech team"</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="carousel-item">
+                                <div class="bn"></div>
+                                <div class="carousel-caption">
+                                    <div class="container">
+                                        <div class="testimonialcnt">
+                                            <!-- <div class="testimonialpic"> <img src="assets/langingImage/test.png" alt=""
+                                                    class="d-block" style="width:100%"></div> -->
+                                            <h4>Israr Khan</h4>
+                                            <p><img src="assets/langingImage/comma.png"> "The Criterion Tech team
+                                                delivers exceptional quality and helped us bring a project to lead a
+                                                active life! The results were beyond our expectations, and we look
+                                                forward to working with them again in the future!"</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- partner with us section -->
+    <!-- <section class="partneser">
+        <div class="container">
+            <div class="bg">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="channelp">
+                            <h6>--- Channel Partner</h6>
+                            <h2>Partner<span>With Us</span></h2>
+                            
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="organization name"
+                                        placeholder="Organization name" name="organization name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="phone number" placeholder="Phone number"
+                                        name="phone number">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" placeholder="Email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="message" placeholder="Message"
+                                        name="message">
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- footer section -->
+    <section class="footer-bg" style="background:url(assets/images/Group\ 1316.png)" id="contact">
+        <div class="partner-i">
+            <img src="assets/langingImage/partner.png">
+        </div>
+
+        <div class="footer-bg-in">
+            <div class="container">
+
+                <div class="footer-bg1">
+                    <div class="botm-mrgn">
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <div class="heading-one">
+                                    <h6>Knowledge Partner</h6>
+                                </div>
+                                <div class="era-logo1">
+                                    <img src="assets/langingImage/Era logo new (1).png">
+                                </div>
+                                <div class="era-logo1">
+                                    <img src="assets/langingImage/AUBLogo.png">
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="heading-one">
+                                    <h6>Quick Link</h6>
+                                </div>
+                                <div class="listing-2">
+                                    <ul>
+                                        <!-- <li><i class='fa fa-angle-right'></i></li>
+                                        <li> <a href="#">Home</a> </li>
+                                        <li><i class='fa fa-angle-right'></i></li>
+                                        <li> <a href="#">About Us</a> </li>
+                                        <li><i class='fa fa-angle-right'></i></li>
+                                        <li> <a href="#">Portfolio</a> </li>
+                                        <li><i class='fa fa-angle-right'></i></li>
+                                        <li> <a href="#">Contact Us</a> </li> -->
+
+                                        <li><i class="fa fa-angle-right"></i> <a
+                                                (click)="onNavigateClick('home', 1)">Home</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a
+                                                (click)="onNavigateClick('about', 2)">About Us</a></li>
+                                        <li><i class="fa fa-angle-right"></i> <a
+                                                (click)="onNavigateClick('features', 3)">Features</a> </li>
+                                        <li><i class="fa fa-angle-right"></i> <a
+                                                (click)="onNavigateClick('contact', 4)">Contact Us</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-2">
+                                <div class="heading-one">
+                                    <h6>Information</h6>
+                                </div>
+                                <div class="listing-2">
+                                    <ul>
+                                        <li><i class='fa fa-angle-right'></i></li>
+                                        <li> <a href="./privacy-policy">Privacy Policy</a> </li>
+                                        <li><i class='fa fa-angle-right'></i></li>
+                                        <li> <a href="./terms-and-conditions">Terms & Conditions</a> </li>
+                                        <li><i class='fa fa-angle-right'></i></li>
+                                        <li> <a href="./cancellation-and-refund-policy">Cancellation & Refund</a> </li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <div class="col-md-2">
+                                <div class="heading-one">
+                                    <h6>Contact Info</h6>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <span id="clr-gen"><img src="assets/langingImage/Icon material-location-on.png">
+                                            Our location:</span>
+                                        <p id="clr-wtr">Sarfarazganj, Hardoi Road, Lucknow-226003 U.P, India</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <span id="clr-gen"> <img src="assets/langingImage/Icon zocial-email.png">
+                                            Email:</span>
+                                        <p id="clr-wtr">info@criteriontech.in</p>
+                                    </div>
+                                </div>
+
+                                <div class="icon-ss">
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/NutritionAnalyser" target="_blank"><i
+                                                    class='fa fa-facebook'></i></a></li>
+                                        <li><a href="https://twitter.com/nutri_analyser" target="_blank"><i
+                                                    class='fa fa-twitter'></i></a></li>
+                                        <li><a href="https://www.instagram.com/nutri_analyser/" target="_blank"><i
+                                                    class='fa fa-instagram'></i></a></li>
+                                        <li><a href="https://www.linkedin.com/company/nutrianalyser/" target="_blank"><i
+                                                    class='fa fa-linkedin'></i></a></li>
+                                        <li> <a href="https://in.pinterest.com/NutriAnalyser/" target="_blank"><i
+                                                    class='fa fa-pinterest'></i></a></li>
+                                        <li> <a href="https://www.youtube.com/channel/UCPLVkYdIV8XcSHvolYzcJow"
+                                                target="_blank"><i class='fa fa-youtube'></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="heading-one">
+                                    <h6>Also Available On...</h6>
+                                    <div class="apple-logo1">
+                                        <img src="assets/langingImage/Mask Group 44.png">
+                                    </div>
+                                    <div class="googl-logo2">
+                                        <img src="assets/langingImage/Mask Group 45.png">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footerg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="txt-bottmm">
+                            <p> &copy; All Right Reserved-2021 <span><a href="https://criteriontech.in/" target="_blank"
+                                        style="color:#5dc267">Criterion Tech</a> </span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- The Modal Login -->
+    <div class="offcanvas offcanvas-bottom" id="myModal">
+        <div class="modal-sm1 modal-dialog-centered">
+            <div class="login-analyser">
+                <div class="row">
+
+                    <div class="col-md-5">
+                        <div class="pop-log-img"><img src="assets/images/login-popup.png"></div>
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="logingreen-cnt">
+
+                            <div class="logingreen">
+                                <div class="btn-close clss" data-bs-dismiss="offcanvas"><i class="fa fa-close"></i>
+                                </div>
+                                <div class="logingreen1">
+                                    <h2 class="welcm-log">Welcome Back!</h2>
+                                    <div *ngIf="showLoginForm" class="row">
+
+                                        <div class="col-sm-3 cntry-cod">
+
+                                            <select [(ngModel)]="loginDTO.loginCountry">
+                                                <option value="0">Select Country</option>
+                                                <option [ngValue]="item.Id" *ngFor="let item of mobileCodes">
+                                                    {{ item.CountryName }}
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-9 cont-num">
+                                            <input type="text" required autocomplete="off" placeholder="Mobile Number"
+                                                [(ngModel)]="loginDTO.username" />
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div *ngIf="showLoginForm" class="col-sm-12 log-pass">
+                                            <input type="password" required autocomplete="off" placeholder="Password"
+                                                [(ngModel)]="loginDTO.password" />
+                                        </div>
+                                        <div *ngIf="showLoginForm" class="col-sm-12">
+                                            <div class="for-pass-log"><a (click)="showForm('forgotPW')"
+                                                    class="link">Forgot
+                                                    Password?</a>
+                                            </div>
+                                        </div>
+                                        <div *ngIf="showLoginForm" class="col-sm-12">
+                                            <div class="pop-log-btn">
+                                                <ul>
+                                                    <li class="btn-ltt"><button (click)="doLogin()">
+                                                            Log In
+                                                        </button></li>
+                                                    <li class="btn-rtt" data-bs-dismiss="offcanvas"><button>
+                                                            Back
+                                                        </button></li>
+                                                </ul>
+                                            </div>
+                                            <div class="newUser" data-bs-toggle="offcanvas" data-bs-target="#myModal1">
+                                                <div class="signn"><span class=link>Sign Up now<i
+                                                            class="fa fa-long-arrow-right"
+                                                            aria-hidden="true"></i></span></div>
+                                            </div>
+                                        </div>
+                                        <div id="login" *ngIf="showForgotPW" data-aos="flip-right" data-aos-once="false"
+                                            data-aos-delay="100">
+                                            <h1 class="loginSignupHeading">Forgot Password!</h1>
+
+
+                                            <div class="field-wrap">
+                                                <select class="loginInput" [(ngModel)]="loginDTO.loginCountry">
+                                                    <option value="0">Select Country</option>
+                                                    <option [ngValue]="item.Id" *ngFor="let item of mobileCodes">
+                                                        {{ item.CountryName }}
+                                                    </option>
+                                                </select>
+                                            </div>
+
+                                            <div class="field-wrap">
+                                                <input type="text" required autocomplete="off"
+                                                    placeholder="Mobile Number" [(ngModel)]="loginDTO.username" />
+                                            </div>
+
+                                            <div class="pop-log-btn">
+                                                <ul>
+                                                    <li class="btn-ltt"><button (click)="forgotPassword()">
+                                                            Send Password
+                                                        </button></li>
+                                                    <li class="btn-rtt"><button (click)="showForm('login')">
+                                                            Back
+                                                        </button></li>
+                                                </ul>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal New User SignUp-->
+    <div class="offcanvas offcanvas-top" id="myModal1">
+        <div class="modal-sm1 modal-dialog-centered">
+            <div class="login-analyser">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="logingreen-cnt">
+
+                            <div class="logingreen sin-up-cnt">
+                                <div class="btn-close clss" data-bs-dismiss="offcanvas"><i class="fa fa-close"></i>
+                                </div>
+                                <div class="logingreen1">
+                                    <h2 class="welcm-log">Sign Up for Free</h2>
+                                    <div *ngIf="showRegisterForm" class="row">
+
+                                        <div class="col-sm-3 cntry-cod">
+                                            <select [(ngModel)]="loginDTO.loginCountry">
+                                                <option value="0">Select Country</option>
+                                                <option [ngValue]="item.Id" *ngFor="let item of mobileCodes">
+                                                    {{ item.CountryName }}
+                                                </option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-9 cont-num">
+                                            <input type="text" required autocomplete="off" placeholder="Mobile No."
+                                                [(ngModel)]="signUpDTO.signUpMobile" (change)="checkMobileNo()" />
+                                        </div>
+                                        <!-- </div>
+                    <div class="row"> -->
+                                        <div class="col-sm-12 log-pass">
+                                            <input type="text" required autocomplete="off" placeholder="Full Name"
+                                                [(ngModel)]="signUpDTO.fullName" />
+                                        </div>
+                                        <div class="col-sm-12 log-pass">
+                                            <input type="email" required autocomplete="off" placeholder="Email Address"
+                                                [(ngModel)]="signUpDTO.email" />
+                                        </div>
+                                        <div class="col-sm-12 log-pass">
+                                            <input type="password" required autocomplete="off"
+                                                placeholder="Set A Password" [(ngModel)]="signUpDTO.password" />
+                                        </div>
+                                        <div class="col-sm-12 log-pass">
+                                            <input type="password" required autocomplete="off"
+                                                placeholder="Confirm Password" [(ngModel)]="confirmPassword" />
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                            <div class="pop-log-btn">
+                                                <ul>
+                                                    <li class="btn-ltt"><button type="submit" (click)="generateOTP()">
+                                                            Get Started
+                                                        </button> </li>
+                                                    <li class="btn-rtt" data-bs-dismiss="offcanvas"><button>
+                                                            Back
+                                                        </button></li>
+                                                </ul>
+                                            </div>
+                                            <div class="signn" data-bs-toggle="offcanvas" data-bs-target="#myModal">
+                                                <span class="link">Login now<i class="fa fa-long-arrow-right"
+                                                        aria-hidden="true"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div *ngIf="showOTP" data-aos="flip-right" data-aos-once="false"
+                                            data-aos-delay="100">
+                                            <h1 class="loginSignupHeading">Verify Phone Number!</h1>
+
+                                            <div>
+                                                <div class="field-wrap">
+                                                    <input type="text" class="loginInput" required autocomplete="off"
+                                                        placeholder="Enter OTP" [(ngModel)]="signUpDTO.OTP" />
+                                                </div>
+
+                                                <button class="button button-block" (click)="verifyNumber()">
+                                                    Verify Phone Number
+                                                </button>
+                                                <button class="button button-back marginTop1rem"
+                                                    (click)="showForm('register')">
+                                                    Back
+                                                </button>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="pop-log-img sinup-popup"><img src="assets/images/sinup-popup.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

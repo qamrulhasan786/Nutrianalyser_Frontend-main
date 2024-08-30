@@ -1,0 +1,1320 @@
+
+ 
+		<div class="content-body">
+			<div class="container-fluid">
+				<div class="row">
+					<!-- <div class="col-xl col-md-3 col-sm-6">
+						<div class="card">
+							<div class="card-body p-4 rec">
+								<div class="d-inline-block mb-4 ml--12 position-relative donut-chart-sale">
+									<span class="donut1"
+										data-peity='{ "fill": ["#84e6ff", "rgba(255, 255, 255, 1)"],   "innerRadius": 45, "radius": 10}'>4/8</span>
+									<small class="text-primary"><img src="assets/images/calories.svg"
+											width="30px"></small>
+									<span class="circle" style="background: #0096BC;"></span>
+								</div>
+								<h2 class="fs-24 text-black font-w600 mb-0">50% Calories</h2>
+								<span class="fs-14">Last Week Progress</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl col-md-3 col-sm-6">
+						<div class="card">
+							<div class="card-body p-4 rec">
+								<div class="d-inline-block mb-4 ml--12 position-relative donut-chart-sale">
+									<span class="donut1"
+										data-peity='{ "fill": ["#86a6ef", "rgba(255, 255, 255, 1)"],   "innerRadius": 45, "radius": 10}'>6/8</span>
+									<small class="text-primary"><img src="assets/images/fatt.svg" width="30px"></small>
+									<span class="circle" style="background: #0640C8;"></span>
+								</div>
+								<h2 class="fs-24 text-black font-w600 mb-0">20% Fats</h2>
+								<span class="fs-14">Last Week Progress</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl col-md-3 col-sm-6">
+						<div class="card">
+							<div class="card-body p-4 rec">
+								<div class="d-inline-block mb-4 ml--12 position-relative donut-chart-sale">
+									<span class="donut1"
+										data-peity='{ "fill": ["#efd4e9", "rgba(255, 255, 255, 1)"],   "innerRadius": 45, "radius": 10}'>5/8</span>
+									<small class="text-primary"><img src="assets/images/bread.svg" width="30px"></small>
+									<span class="circle" style="background: #D925AF;"></span>
+								</div>
+								<h2 class="fs-24 text-black font-w600 mb-0">60% Carbohydrates</h2>
+								<span class="fs-14">Last Week Progress</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl col-md-3 col-sm-6">
+						<div class="card">
+							<div class="card-body p-4 rec">
+								<div class="d-inline-block mb-4 ml--12 position-relative donut-chart-sale">
+									<span class="donut1"
+										data-peity='{ "fill": ["#f9d2a6", "rgba(255, 255, 255, 1)"],   "innerRadius": 45, "radius": 10}'>2/8</span>
+									<small class="text-primary"><img src="assets/images/protein-powder.svg"
+											width="30px"></small>
+									<span class="circle" style="background: #FF8800;"></span>
+								</div>
+								<h2 class="fs-24 text-black font-w600 mb-0">20% Protiens</h2>
+								<span class="fs-14">Last Week Progress</span>
+							</div>
+						</div>
+					</div> -->
+
+
+					<div class="col-xl-6 col-xxl-6">
+						<div class="card">
+							<div class="card-header flex-wrap pb-0 border-0">
+								<div class="mr-auto pr-3 mb-2" style="width: 100%;">
+									<h4 class="text-black fs-20">Current Week</h4>
+									<div class="current_calen">
+										<img src="assets/images/calender.png" width="100%">
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-xl-6 col-xxl-6">
+						<div class="card">
+							<div class="card-header1 flex-wrap pb-0 border-0">
+								<div class="row">
+									<div class="col-md-3 col-sm-3">
+										<div class="thisweak">This Week <span>Goals</span></div>
+									</div>
+									<div class="col-xl col-md-9 col-sm-9">
+
+
+										<div class="goalss mb-3">
+											<ul>
+												<li>
+													<div class="callocnt" style="background: rgb(31 162 196 / 13%);">
+														<div class="callo"><img
+																src="assets/images/calories-calculator.svg"></div>
+														<div class="callotxt">Calories <span>600</span></div>
+													</div>
+												</li>
+												<li>
+													<div class="callocnt" style="background: rgb(32 85 205 / 14%);">
+														<div class="callo"><img src="assets/images/overweight.svg">
+														</div>
+														<div class="callotxt">Fats <span>600</span></div>
+													</div>
+												</li>
+												<li>
+													<div class="callocnt" style="background: rgb(223 72 188 / 13%);">
+														<div class="callo"><img src="assets/images/carbohydrates.svg">
+														</div>
+														<div class="callotxt">Carbs <span>600</span></div>
+													</div>
+												</li>
+												<li>
+													<div class="callocnt" style="background: rgb(255 156 43 / 13%);">
+														<div class="callo"><img src="assets/images/protein.svg"></div>
+														<div class="callotxt">Protiens <span>600</span></div>
+													</div>
+												</li>
+											</ul>
+										</div>
+
+
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="col-xl-12">
+						<div class="card2">
+							<div class="active" id="Breakfast">
+								<div class="featured-menus owl-carousel" >
+
+									<div class="items" *ngFor="let item of foodTiming">
+										<div class="diet-time">
+											<div class="diet-image-in">
+												<img src="assets/Images/s1.png" class="diet-img">
+												<div class="diet-bg-overlay"></div>
+												<div class="diet-title">
+													<ul>
+														<li class="break-1">
+															<h3> {{ item.name }}</h3>
+														</li>
+														<li class="breakfast-add"><button data-toggle="modal"
+																data-target="#addfood" item.id >Add</button></li>
+													</ul>
+												</div>
+												<div class="diet-title1">
+													<ul>
+														<li><a href="#">Achieved - RDA</a></li>
+														<li><a href="#">RDA Based Recommendation</a></li>
+													</ul>
+												</div>
+											</div>
+
+											<div class="diet-time-table">
+												<table>
+													<thead>
+														<tr>
+															<th>Food</th>
+															<th>Quantity</th>
+															<th>Action</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>Gobhi Paratha</td>
+															<td>30 gm</td>
+															<td>
+																<div class="diet-edit">
+																	<ul>
+																		<li class="edit-1" title="View"
+																			data-toggle="modal"
+																			data-target="#viewdetails"><i
+																				class="fa fa-eye"
+																				aria-hidden="true"></i></li>
+																		<li class="edit-2" title="Edit"><i
+																				class="fa fa-pencil "
+																				aria-hidden="true"></i></li>
+																		<li class="edit-3" title="Delete"><i
+																				class="fa fa-trash-o"
+																				aria-hidden="true"></i></li>
+																	</ul>
+																</div>
+															</td>
+														</tr>
+
+														<tr>
+															<td>Gobhi Paratha</td>
+															<td>30 gm</td>
+															<td>
+																<div class="diet-edit">
+																	<ul>
+																		<li class="edit-1" title="View"
+																			data-toggle="modal"
+																			data-target="#viewdetails"><i
+																				class="fa fa-eye"
+																				aria-hidden="true"></i></li>
+																		<li class="edit-2" title="Edit"><i
+																				class="fa fa-pencil "
+																				aria-hidden="true"></i></li>
+																		<li class="edit-3" title="Delete"><i
+																				class="fa fa-trash-o"
+																				aria-hidden="true"></i></li>
+																	</ul>
+																</div>
+															</td>
+														</tr>
+
+														<tr>
+															<td>Gobhi Paratha</td>
+															<td>30 gm</td>
+															<td>
+																<div class="diet-edit">
+																	<ul>
+																		<li class="edit-1" title="View"
+																			data-toggle="modal"
+																			data-target="#viewdetails"><i
+																				class="fa fa-eye"
+																				aria-hidden="true"></i></li>
+																		<li class="edit-2" title="Edit"><i
+																				class="fa fa-pencil "
+																				aria-hidden="true"></i></li>
+																		<li class="edit-3" title="Delete"><i
+																				class="fa fa-trash-o"
+																				aria-hidden="true"></i></li>
+																	</ul>
+																</div>
+															</td>
+														</tr>
+
+														<tr>
+															<td>Gobhi Paratha</td>
+															<td>30 gm</td>
+															<td>
+																<div class="diet-edit">
+																	<ul>
+																		<li class="edit-1" title="View"
+																			data-toggle="modal"
+																			data-target="#Nutrientdetails"><i
+																				class="fa fa-eye"
+																				aria-hidden="true"></i></li>
+																		<li class="edit-2" title="Edit"
+																			data-toggle="modal" data-target="#editfood">
+																			<i class="fa fa-pencil "
+																				aria-hidden="true"></i></li>
+																		<li class="edit-3" title="Delete"><i
+																				class="fa fa-trash-o"
+																				aria-hidden="true"></i></li>
+																	</ul>
+																</div>
+															</td>
+														</tr>
+
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<!---Start Nutrient List Section-->
+					<div class="sec-consumed">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="cons-value">
+									<h3>Consumed Value</h3>
+									<div class="cons-cir-bar"><img src="assets/images/cir.png"></div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Protien</li>
+											<li><span style="color: #a5a5a5;">30.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #0A50B0;width: 75%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Fat</li>
+											<li><span style="color: #a5a5a5;">20.10gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #3EB992; width:60%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Crab</li>
+											<li><span style="color: #a5a5a5;">45.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #F3CD39; width:50%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Fiber</li>
+											<li><span style="color: #a5a5a5;">38.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #7CB5EC; width:30%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col-md-9">
+								<div class="recommend-rt">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="recommen">
+												<ul>
+													<li>
+														<h2>Nutrient List</h2>
+													</li>
+													<li><input type="search" class="form-control" id=""
+															placeholder="Search"></li>
+												</ul>
+
+
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin K-Phylloquinone</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>Achieved Qty/RDA</li>
+														<li><span>22.580/55.000mg</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!---End Nutrient List Section-->
+
+					<!---Start Achieved RDA Value Section-->
+					<div class="sec-consumed">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="cons-value">
+									<h3>Consumed Value</h3>
+									<div class="cons-cir-bar"><img src="assets/images/cir.png"></div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Protien</li>
+											<li><span style="color: #a5a5a5;">30.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #0A50B0;width: 75%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Fat</li>
+											<li><span style="color: #a5a5a5;">20.10gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #3EB992; width:60%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Crab</li>
+											<li><span style="color: #a5a5a5;">45.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #F3CD39; width:50%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Fiber</li>
+											<li><span style="color: #a5a5a5;">38.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #7CB5EC; width:30%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-9">
+								<div class="recommend-rt">
+
+									<div class="row">
+										<div class="col-md-12">
+											<div class="recommen">
+												<ul>
+													<li>
+														<h2>Achieved - RDA</h2>
+													</li>
+													<li><input type="search" class="form-control" id=""
+															placeholder="Search"></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-12 pd3">
+											<div class="sec-carbo">
+												<h3>Carbohydrate</h3>
+											</div>
+										</div>
+
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Starch</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Starch</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Starch</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Starch</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Starch</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Starch</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+										<div class="col-md-12 pd3">
+											<div class="sec-carbo">
+												<h3>Protein</h3>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Protein</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Protein</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Protein</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+										<div class="col-md-12 pd3">
+											<div class="sec-carbo">
+												<h3>Vitamin</h3>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin B2</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin B2</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 pd3">
+											<div class="prog-starch">
+												<h4>Vitamin B2</h4>
+												<div class="cons-prot">
+													<ul>
+														<li>1,147/0.000</li>
+														<li><span>33%</span></li>
+													</ul>
+													<div class="val-prot">
+														<div class="prog-in" id="">
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!---End Achieved RDA Value Section-->
+
+					<!---Start Consumed RDA Value Section-->
+					<div class="sec-consumed">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="cons-value">
+									<h3>Consumed Value</h3>
+									<div class="cons-cir-bar"><img src="assets/images/cir.png"></div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Protien</li>
+											<li><span style="color: #a5a5a5;">30.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #0A50B0;width: 75%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Fat</li>
+											<li><span style="color: #a5a5a5;">20.10gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #3EB992; width:60%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Crab</li>
+											<li><span style="color: #a5a5a5;">45.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #F3CD39; width:50%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+									<div class="cons-prot cons-prot1">
+										<ul>
+											<li>Fiber</li>
+											<li><span style="color: #a5a5a5;">38.00gm</span></li>
+										</ul>
+										<div class="val-prot">
+											<div class="prog-in" style="background: #7CB5EC; width:30%;" id="">
+												<div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-9">
+								<div class="recommend-rt">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="recommen">
+												<ul>
+													<li>
+														<h2>Recommendations</h2>
+													</li>
+													<li><input type="search" class="form-control" id=""
+															placeholder="Search"></li>
+												</ul>
+
+
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="recommen-table table-responsive" style="max-height: 38vh;">
+											<table>
+												<thead>
+													<tr>
+														<th>#</th>
+														<th>Nutrients</th>
+														<th>Recommendation</th>
+														<th>Achieved</th>
+														<th>RDA</th>
+														<th>Sources</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>1</td>
+														<td>Vitamin E tocopherol</td>
+														<td>9.975 mg</td>
+														<td>0.025 mg</td>
+														<td>10.000 mg</td>
+														<td><i class="fa fa-eye" aria-hidden="true"></i></td>
+													</tr>
+													<tr>
+														<td>2</td>
+														<td>Vitamin E tocopherol</td>
+														<td>9.975 mg</td>
+														<td>0.025 mg</td>
+														<td>10.000 mg</td>
+														<td><i class="fa fa-eye" aria-hidden="true"></i></td>
+													</tr>
+													<tr>
+														<td>3</td>
+														<td>Vitamin E tocopherol</td>
+														<td>9.975 mg</td>
+														<td>0.025 mg</td>
+														<td>10.000 mg</td>
+														<td><i class="fa fa-eye" aria-hidden="true"></i></td>
+													</tr>
+													<tr>
+														<td>4</td>
+														<td>Vitamin E tocopherol</td>
+														<td>9.975 mg</td>
+														<td>0.025 mg</td>
+														<td>10.000 mg</td>
+														<td><i class="fa fa-eye" aria-hidden="true"></i></td>
+													</tr>
+													<tr>
+														<td>5</td>
+														<td>Vitamin E tocopherol</td>
+														<td>9.975 mg</td>
+														<td>0.025 mg</td>
+														<td>10.000 mg</td>
+														<td><i class="fa fa-eye" aria-hidden="true"></i></td>
+													</tr>
+													<tr>
+														<td>6</td>
+														<td>Vitamin E tocopherol</td>
+														<td>9.975 mg</td>
+														<td>0.025 mg</td>
+														<td>10.000 mg</td>
+														<td><i class="fa fa-eye" aria-hidden="true"></i></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!---End Consumed RDA Value Section-->
+
+
+					<!-- Modal  Edit Food-->
+					<div class="modal fade" id="addfood">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" style="color: #000000;">Add food</h5>
+									<button type="button" class="close" data-dismiss="modal"><span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<section class="popup-food">
+										<div class="row">
+											<div class="col-sm-12">
+
+												<div class="search-food">
+													<input type="text" placeholder="Search For Food">
+													<ng-autocomplete #recipiesList [data]="foodList" [searchKeyword]="recipekeyword"
+													placeholder="Search For Food" [itemTemplate]="itemTemp" [notFoundTemplate]="notFoundTemp"
+													[minQueryLength]="2" (inputChanged)="getFoodList($event)" (selected)="getFoodUnit($event)"
+													  [(ngModel)]="intakeDTO.newDish">
+												  </ng-autocomplete>
+												  <ng-template #itemTemp let-item>
+													<div class="item">
+													  <span [innerHTML]="item.foodName"></span>
+													</div>
+												  </ng-template>
+												  <ng-template #notFoundTemp let-notFound>
+													<div [innerHTML]="notFound"></div>
+												  </ng-template>
+												</div>
+
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="quantity-food">
+															<div class="selct-quantity">
+																<h4>Enter Food Quantity</h4>
+																<input  type="text" placeholder="Quantity" [(ngModel)]="intakeDTO.foodQuantity"
+																name="foodQuantity" (change)="getFoodSpecificNutrient()" decimalOnly maxlength="10"
+																required="required" />
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="quantity-food">
+															<div class="selct-quantity">
+																<h4> Select Food Unit</h4>
+																<select>
+																	<option>Cups</option>
+																	<option>Bowl</option>
+																	<option>Grams</option>
+																</select>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="natl-infoo">
+													<h2>Nutritional Information</h2>
+												</div>
+
+												<div class="d-flex justify-content-center">
+													<div class="abc">
+														<div class="txt-top">
+															<h6>Cal</h6>
+														</div>
+														<div class="p-2 bg-clr1"><img src="assets/images/caloriess.png"
+																alt="clrs"></div>
+														<div class="txt-top">
+															<h6>2.0 g</h6>
+														</div>
+													</div>
+
+													<div class="abc">
+														<div class="txt-top">
+															<h6>Fat</h6>
+														</div>
+														<div class="p-2 bg-clr2"><img src="assets/images/fatt.png"
+																alt="clrs"></div>
+														<div class="txt-top">
+															<h6>2.0 g</h6>
+														</div>
+													</div>
+
+													<div class="abc">
+														<div class="txt-top">
+															<h6>Carbs</h6>
+														</div>
+														<div class="p-2 bg-clr3"><img
+																src="assets/images/protein-powder.png" alt="clrs"></div>
+														<div class="txt-top">
+															<h6>2.0 g</h6>
+														</div>
+													</div>
+
+													<div class="abc">
+														<div class="txt-top">
+															<h6>Pro</h6>
+														</div>
+														<div class="p-2 bg-clr4"><img src="assets/images/bread.png"
+																alt="clrs"></div>
+														<div class="txt-top">
+															<h6>2.0 g</h6>
+														</div>
+													</div>
+
+												</div>
+
+												<button type="button" class="clr-szz">
+													<h6>Add</h6>
+												</button>
+												<button type="button" class="clr-szz dd">
+													<h6 class="ddd">Clear</h6>
+												</button>
+											</div>
+
+
+										</div>
+
+									</section>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- Modal  viewdetails-->
+					<div class="modal fade" id="viewdetails">
+						<div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" style="color: #000000;">Food</h5>
+									<button type="button" class="close" data-dismiss="modal"><span>&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<section class="popup-food">
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="recommen-table table-responsive" style="max-height: 38vh;">
+													<table class="tblk">
+														<thead>
+															<tr>
+																<th>#</th>
+																<th>Food name</th>
+																<th>Nutrients</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>1</td>
+																<td>Crustaceans, crab, blue, crab cakes, home recipe
+																</td>
+																<td>Glutamic acid</td>
+															</tr>
+															<tr>
+																<td>1</td>
+																<td>Crustaceans, crab, blue, crab cakes, home recipe
+																</td>
+																<td>Glutamic acid</td>
+															</tr>
+															<tr>
+																<td>2</td>
+																<td>Crustaceans, crab, blue, crab cakes, home recipe
+																</td>
+																<td>Glutamic acid</td>
+															</tr>
+															<tr>
+																<td>3</td>
+																<td>Crustaceans, crab, blue, crab cakes, home recipe
+																</td>
+																<td>Glutamic acid</td>
+															</tr>
+															<tr>
+																<td>4</td>
+																<td>Crustaceans, crab, blue, crab cakes, home recipe
+																</td>
+																<td>Glutamic acid</td>
+															</tr>
+															<tr>
+																<td>5</td>
+																<td>Crustaceans, crab, blue, crab cakes, home recipe
+																</td>
+																<td>Glutamic acid</td>
+															</tr>
+															<tr>
+																<td>6</td>
+																<td>Crustaceans, crab, blue, crab cakes, home recipe
+																</td>
+																<td>Glutamic acid</td>
+															</tr>
+															<tr>
+																<td>7</td>
+																<td>Crustaceans, crab, blue, crab cakes, home recipe
+																</td>
+																<td>Glutamic acid</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+
+											</div>
+										</div>
+									</section>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		 
+		
